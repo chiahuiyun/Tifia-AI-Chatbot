@@ -1,0 +1,116 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [ "Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hihi" ],
+        "responses": [ "Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?" ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" ],
+        "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon." ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+        "responses": [ "Happy to help!", "Any time!", "My pleasure" ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["adjfjksfhosahf", "15615616", "^*&@(*&#(*#&!(", "vsad15643/*-", "1", "f", "@"],
+        "responses": [ "Sorry, I can't understand you", "Please give me more info", "Not sure I understand" ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "options",
+        "patterns": [ "How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered" ],
+        "responses": [ "I can guide you through Exercise List, Exercise Details, Diet Plans", "Offering support for Exercise Lists, Exercise Details, Diet Plans" ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "exercise_list",
+        "patterns": [ "How to check Exercise list?", "Open exercise list module", "Give me a list of exercises for workout", "List all exercises suitable for me", "What exercises do you have?" ],
+        "responses": [ "Navigating to Exercise module" ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "exercise_details",
+        "patterns": [ "Open exercise details module", "Task related to exercise details", "Workout details", "I want to know about the details of the exercises", "What is the benefits of this exercise?" ],
+        "responses": [ "What exercise details do you want to know?", "What workout details do you want to know?" ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "diet_plan",
+        "patterns": [ "I want to search for diet plans", "Diet plans for beginner", "Load diet plans result", "Show diet plans for me", "Find suitable diet plans" ],
+        "responses": [ "Navigating to Diet Plans module" ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "squat",
+        "patterns": [ "What is the benefits of squat?", "How to do squat?", "What muscle involve in squat?", "Squat", "Search squat" ],
+        "responses": [
+          "Squat Instruction:<br /> 1) Stand tall with your feet hip distance apart.<br /> 2) Your hips, knees, and toes should all be facing forward.<br /> 3) Bend your knees and extend your buttocks backward as if you are going to sit back into a chair.<br /> 4) Make sure that you keep your knees behind your toes and your weight in your heels.<br /> 5) Rise back up and repeat.<br /><br /> Benefits: <br /> 1) Strengthens your tendons, bones, and ligaments around the leg muscles. <br /> 2) Help boost your bone mineral density for stronger bones.<br /> 3) Helps shape up your legs and butt. <br /><br /> Muscle involve: Hip muscle, calves, Hhmstrings and obliques"
+        ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "backward_lunge",
+        "patterns": [ "What is the benefits of backward lunge?", "How to do backward lunge?", "What muscle involve in backward lunge?", "backward lunge", "Search backward lunge", "Lunge" ],
+        "responses": [
+          "Backward Lunge Instruction: <br /> 1) Stand upright, with your hands at your hips.<br /> 2) Take a large step backward with your left foot.<br /> 3) Lower your hips so that your right thigh (front leg) becomes parallel to the floor with your right knee positioned directly over your ankle.<br /> 4) Your left knee should be bent at a 90-degree angle and pointing toward the floor with your left heel lifted.<br /> 5) Return to standing by pressing your right heel into the floor and bringing your left leg forward to complete one rep.<br /> 6) Alternate legs, and step back with right leg.<br /><br />Benefits: <br />1) More balanced as move backward.<br /> 2) Changing up the direction from most of your movements and training muscles to work differently.<br /> <br />Muscle involve: Core, glutes, and hamstrings"
+        ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "overhead_press",
+        "patterns": [ "What is the benefits of overhead press?", "How to do overhead press?", "What muscle involve in overhead press?", "overhead press", "Search overhead press", "Overhead Press" ],
+        "responses": [
+          "Overhead Press Instruction:<br /> 1) Start with feet hip distance apart.<br /> 2) Bring elbows out to the side creating a goal post position with arms, dumbbells are at the side of the head, and abdominals are tight.<br /> 3) Press dumbbells slowly up until arms are straight.<br /> 4) Slowly return to starting position with control.<br /><br /> Benefits: <br /> 1) Improved Core Strength<br /> 2) Improved Lockout Strength And Power<br /> 3) Helps build upper body strength, power, and flex appeal.<br /><br /> Muscle involve: Pectorals (chest), deltoids (shoulders), triceps (arms) and trapezius (upper back)"
+        ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "side_plank",
+        "patterns": [ "What is the benefits of side plank?", "How to do side plank?", "What muscle involve in side plank?", "side plank", "Search side plank", "Side Plank" ],
+        "responses": [
+          "Side Plank Instruction: <br /> 1) Start with feet hip distance apart. <br /> 2) Bring elbows out to the side creating a goal post position with arms, <br />dumbbells are at the side of the head, and abdominals are tight. <br />3) Press dumbbells slowly up until arms are straight. 4) Slowly return to starting position with control.<br /><br /> Benefits: <br /> 1) Work on strengthening the core. <br /> 2) Burn calories and body fat.<br /> 3) Working on upper and lower body muscles. <br /><br /> Muscle involve: Obliques, glutes, hamstrings, hip muscle and abdominis"
+        ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "single_overhead",
+        "patterns": [ "What is the benefits of single overhead?", "How to do single overhead?", "What muscle involve in single overhead?", "single overhead", "Search single overhead", "Single Overhead Press" ],
+        "responses": [
+          "Single Overhead Press Instruction:<br /> 1) Stand with your legs shoulder-width apart and a dumbbell in one hand, with your arm bent, above your shoulder. Extend through your elbow to lift the dumbbell directly above you. 3) Lower it back down to your shoulder. 4) Switch hand and repeat.<br /><br />Benefits: <br /> 1) Increasing upper body strength, primarily the shoulders. <br /> 2) Increasing core strength, particularly the anterior core and obliques. <br /> 3) Evening out muscular imbalances and asymmetries. <br /><br /> Muscles involve: Upper back, triceps, forearm (wrist) and core."
+        ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "push_up",
+        "patterns": [ "What is the benefits of push up?", "How to do push up?", "What muscle involve in push up?", "push up", "Search push up", "Push Up" ],
+        "responses": [
+          "Push Up Instruction:<br /> 1) Begin in a plank position with hands below shoulders, legs long behind you, and body contracted to hold your spine in a straight line. <br />2) With elbows pointing slightly back, bend elbows and slowly begin to lower your body until you are just above the ground. <br />3) Keep your gaze over your fingertips and body in a straight line. <br />4) As you exhale, tighten your belly and push yourself back up to a plank position.That is one repetition.<br /><br /> Benefits: <br /> 1) Improves upper body strength <br /> 2) Help boost metabolism.<br /> 3) Support bone health and boost heart health. <br /><br /> Muscle involve: Triceps, pectoral muscles, and shoulders."
+        ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "superwoman",
+        "patterns": [ "What is the benefits of superwoman?", "How to do superwoman?", "What muscle involve in superwoman?", "superwoman", "Search superwoman", "superman" ],
+        "responses": [
+          "Superwoman Instruction (also known as Superman):<br /> 1) Lie down on stomach with arms and legs long.<br />2) Draw abdominals up and away from the mat and pull shoulders down away from ears.<br /> 3) Squeeze abs, back muscles and glutes to lift arms and legs off the mat.<br /> 4) Release to start position with control.<br /><br /> Benefits: <br /> 1) Strengthens the erector spinae muscles, which provide support to your spine.<br /> 2) Reduce strain on your lower back, which can lead to pain or injury over time.<br /> 3) Build stronger legs and buttocks.<br /><br /> Muscles involve: Lower back (erector spinae muscles), abs, glutes, hamstrings, and upper back. "
+        ],
+        "context": [ "" ]
+      },
+      {
+        "tag": "marching",
+        "patterns": [ "What is the benefits of marching?", "How to do marching?", "What muscle involve in marching?", "march", "Search marching", "Marching" ],
+        "responses": [
+          "Marching Instruction: <br /> 1) Stand straight with your elbows bent at a 90-degree angle and your feet hip width apart.<br /> 2) Bring your right elbow forward at the same time as you bring your left knee up. <br /> 3) Repeat on the opposite side and keep alternating sides until set is complete.<br /><br /> Benefits: <br />1) Creates stability on both sides of the body (hip flexors and glutes).<br /> 2) Develops balance while increasing core stability.<br /> 3) Helps increase performance in single-leg movements.<br /><br /> Muscles involve: Hips, thighs, legs, core and glutes"
+        ],
+        "context": [ "" ]
+      }
+    ]
+  }
